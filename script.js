@@ -1,6 +1,6 @@
 var row = 1;
 var score=0;
-var timer=300;
+var timer=30;
 var divider=1;
 var count=0;
 var total=((row+1)*(row+1));
@@ -17,7 +17,7 @@ window.onload= function () {
 function reduceTimer(){
 	document.getElementById('timer').innerHTML=timer;
 	timer--;
-	if(timer==295){
+	if(timer==25){
 		enableClick();
 	}
 	if(timer<0) {
@@ -87,7 +87,7 @@ function btnClick(x) {
 			total=((row+1)*(row+1));
 			create_table(row);
 			count=0;
-			timer=300;
+			timer=30;
 			score++;
 		}
 	}
