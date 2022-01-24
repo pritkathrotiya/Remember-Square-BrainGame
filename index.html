@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kuku Kube By Prit Kathrotiya</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="center-screen">
+		<div id="game">
+			<div class="row mb-3">
+				<h2 class="mr-5"><span id="timer"></span></h2>
+				<button type="button" id="btnRestart" class="btn btn-warning restart mx-auto" onclick="restart()">Restart</button>
+			</div>
+			<div class="row mb-2 m-2">
+				<table id="tbl" class="ml-2 mr-2">
+				</table>
+			</div>
+			<div>
+				<h6>&copy; By Prit Kathrotiya</h6>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header mx-auto">
+						<h2 id="score"></h2>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-warning mx-auto" onclick="restart()">Play Again</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

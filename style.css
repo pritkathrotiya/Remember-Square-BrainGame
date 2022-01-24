@@ -1,0 +1,13 @@
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.btnStyle{
+	border: 1px solid #000000 !important;
+}
+.restart{
+	width: 55% !important;
+}
